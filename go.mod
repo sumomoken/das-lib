@@ -1,4 +1,4 @@
-module github.com/dotbitHQ/das-lib
+module github.com/sumomoken/das-lib
 
 go 1.17
 
