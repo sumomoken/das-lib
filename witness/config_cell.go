@@ -49,6 +49,7 @@ func ConfigCellDataBuilderRefByTypeArgs(builder *ConfigCellDataBuilder, tx *type
 		}
 		return true, nil
 	})
+	fmt.Println(configCellDataBys)
 	if err != nil {
 		return fmt.Errorf("GetWitnessDataFromTx err: %s", err.Error())
 	}
